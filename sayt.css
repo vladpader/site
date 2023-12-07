@@ -1,0 +1,402 @@
+.header {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.up {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.glavna {
+   text-align: left;
+}
+
+.glavna:hover {
+   background-color: rgb(122, 122, 122);
+   width: 100px;
+}
+
+.poisk {
+   text-align: right;
+}
+
+.down {
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   text-align: center;
+   margin-top: 10px;
+}
+
+.down div {
+   border: 1px solid rgb(46, 46, 46);
+   background-color: rgb(224, 224, 224);
+   color: rgb(87, 87, 87);
+   font-size: 20px;
+}
+
+.down2 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   text-align: center;
+}
+
+
+.contant {
+   display: grid;
+   background-color: rgb(224, 224, 224);
+   margin-top: -15px;
+   grid-template-rows: 250px;
+}
+
+.p1 {
+   font-size: 40px;
+}
+
+.p2 {
+   font-size: 20px;
+   color: rgb(136, 136, 136);
+}
+
+.down2 {
+   display: grid;
+   grid-template-rows: 30px;
+   border: 1px solid rgb(22, 22, 22);
+   background-color: rgb(158, 158, 158);
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+}
+
+.a1 {
+   margin-top: 5px;
+}
+.a1::first-letter {
+   width: 40px;
+   height: 40px;
+   background-color:rgba(37, 37, 37, 0.438);
+}
+
+.a2 {
+   margin-top: 5px;
+}
+.a2::first-letter {
+   width: 40px;
+   height: 40px;
+   background-color:rgba(37, 37, 37, 0.438);
+}
+
+.a3 {
+   margin-top: 5px;
+}
+.a3::first-letter {
+   width: 40px;
+   height: 40px;
+   background-color:rgba(37, 37, 37, 0.438);
+}
+
+.a4 {
+   margin-top: 5px;
+}
+.a4::first-letter {
+   width: 40px;
+   height: 40px;
+   background-color:rgba(37, 37, 37, 0.438);
+}
+
+
+.a1:hover {
+   color: rgba(0, 255, 255, 0.438);
+}
+
+.a2:hover {
+   color: rgba(0, 255, 255, 0.438);
+   ;
+}
+
+.a3:hover {
+   color: rgba(0, 255, 255, 0.438);
+   ;
+}
+
+.a4:hover {
+   color: rgba(0, 255, 255, 0.438);
+   ;
+}
+
+.niz{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   border: 1px solid rgb(0, 0, 0);
+}
+
+.ABOUT2{
+   border: 1px solid rgb(0, 0, 0);
+}
+
+.cvadrat{
+   height: 150px;
+   width: 150px;
+   background-color: rgb(155, 152, 152);
+   border: 5px groove rgb(116, 116, 116);
+   margin-top: 10px;
+   position:relative;
+   left: 250px;
+}
+
+/* .ww{ */
+   /* position: relative;
+   left: 450px;
+   margin-top: -200px; */
+   
+/* } */
+.vse{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.WORD{
+   border: 1px solid black;
+}
+
+
+.p:hover{
+   color: gray;
+}
+
+
+.niz2{
+   display: grid;
+   grid-template-columns: repeat(3. 1fr);
+   border: 1px solid black;
+}
+
+.end{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   border: 1px solid black;
+}
+.SERVICES2{
+   border: 1px solid black;
+}
+.OUR{
+   border: 1px solid black;
+}
+.LOREM{
+   border: 1px solid black;
+}
+
+.WW4{
+   text-align: center;
+}
+.c{
+   text-align: center;
+}
+.ww4{
+   /* position: relative;
+   left: 50px; */
+   text-align: center;
+}
+/* .cv{
+   height: 50px;
+   width: 50px;
+   background-color: rgb(155, 152, 152);
+   border: 5px groove rgb(116, 116, 116);
+   position: relative;
+   left: 100px;
+   margin-top: 32px;
+} */
+
+
+.futer {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 200px;
+}
+
+.o{
+   text-align: center;
+   border: 1px solid black;
+}
+.sitemap {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.fr {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.fr2 {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.home:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.aboutus:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.services:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.partners:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.customers:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.project:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.careers:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.contact:hover {
+   background-color: rgb(8, 209, 209);
+   color: rgb(255, 255, 255);
+}
+
+.fr {
+   border: 1px solid rgb(22, 22, 22);
+   background-color: rgb(158, 158, 158);
+   color: rgb(58, 58, 58);
+   font-size: 18px;
+}
+
+.futer {
+   border: 1px solid rgb(22, 22, 22);
+   background-color: rgb(158, 158, 158);
+   color: rgb(58, 58, 58);
+   font-size: 20px;
+}
+
+.twitter div {
+   font-size: 20px;
+}
+
+
+.twitter {
+   background-color: rgb(158, 158, 158);
+   color: rgb(58, 58, 58);
+   font-size: 20px;
+}
+
+.home1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+.about1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+.services1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+.partners1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+.support1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+.contact1:hover {
+   background-color: rgb(68, 68, 68);
+   color: rgb(255, 255, 255);
+}
+
+
+.social{
+   border: 1px solid black;
+}
+.gg:hover{
+   background-color:rgb(122, 122, 122); 
+}
+.gg{
+   position: relative;
+   left: 300px;
+   margin-top: 50px;
+}
+.sot{
+   position: relative;
+   left: 185px;
+   margin-top: 40px;
+}
+
+@media (max-width:550px){
+  .down{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   font-size: 5px;
+  }
+    .niz{
+      display: grid;
+      grid-template-columns: 1fr;
+      border: 1px solid black;
+    }
+    .niz2{
+      display: grid;
+  
+
+    }
+    .up1{
+      font-size: 10px;
+    }
+    .down2{
+      display: grid;
+      font-size: 10px;
+    }
+ 
+    .cvadrat{
+      height: 80px;
+      width: 80px;
+      background-color: rgb(155, 152, 152);
+      border: 5px groove rgb(116, 116, 116);
+      margin-top: 10px;
+      position:relative;
+      left: 60px;
+   }
+   .vse{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .ww4{
+      font-size: 19px;
+   }
+   .c .y{
+      font-size: 19px;
+   }
+
+   .futer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   .text{
+      font-size: 14px;
+   }
+   .sot{
+      display: grid;
+    
+   }
+}
